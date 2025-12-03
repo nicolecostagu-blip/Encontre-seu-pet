@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🐾 Encontre seu Pet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffccd5, #c9f5ff);
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,102,163,0.2);
+        }
+        h1 {
+            color: #ff3366;
+            margin-bottom: 20px;
+        }
+        input, select {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #ffccdd;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        button {
+            background: #ff3366;
+            color: white;
+            border: none;
+            padding: 18px;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 30px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐾 ENCONTRE SEU PET</h1>
+        <p>Site para ajudar animais perdidos e encontrados</p>
+        
+        <form>
+            <input type="text" placeholder="📝 Seu nome" required>
+            <input type="tel" placeholder="📞 Telefone" required>
+            <input type="text" placeholder="🐕 Nome do animal (se souber)">
+            
+            <select>
+                <option>📍 Selecione a situação</option>
+                <option>😢 Perdi meu pet</option>
+                <option>🎉 Encontrei um pet</option>
+            </select>
+            
+            <input type="text" placeholder="🏙️ Cidade" required>
+            <input type="date" required>
+            
+            <button type="button" onclick="alert('Cadastro enviado! 🐶')">
+                📤 ENVIAR CADASTRO
+            </button>
+        </form>
+        
+        <footer>
+            <p>❤ Projeto feito com amor para ajudar animais ❤</p>
+            <p>🐶 🐱 🐰 🐦 🐢</p>
+            <p>© 2024 Encontre seu Pet</p>
+        </footer>
+    </div>
+</body>
+</html>
